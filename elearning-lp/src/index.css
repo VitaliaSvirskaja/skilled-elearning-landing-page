@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .orange-gradient {
+    @apply bg-gradient-to-t from-gradient-orange-dark to-gradient-orange-light;
+  }
+
+  .violet-gradient {
+    @apply bg-gradient-to-t from-gradient-orange-dark to-gradient-violet-dark;
+  }
+}
