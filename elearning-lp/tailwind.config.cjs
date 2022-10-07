@@ -13,6 +13,7 @@ module.exports = {
         'gradient-orange-light':'#FF6F48',
         'gradient-orange-dark':'#F02AA6',
         'gradient-violet-dark':'#4851FF',
+        'gradient-background-blue':'#F0F1FF',
 
       }
     },
