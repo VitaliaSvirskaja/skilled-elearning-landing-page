@@ -10,7 +10,7 @@ export const Herosection = () => {
         knowledge you need to live the life you want.
       </p>
       <HerosectionButton />
-      <img src={heroImageMobile} alt="hero-image" />
+      <img src={heroImageMobile} alt="hero-image" className="mt-4" />
     </div>
   );
 };
