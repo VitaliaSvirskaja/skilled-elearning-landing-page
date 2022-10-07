@@ -1,11 +1,9 @@
 import { Herosection } from "./Herosection";
 import { Features } from "./Features";
 
-interface Props {}
-
-export const MainContent = (props: Props) => {
+export const MainContent = () => {
   return (
-    <div className="">
+    <div className="px-4">
       <Herosection />
       <Features />
     </div>
