@@ -7,8 +7,8 @@ import businessIcon from "../../assets/icon-business.svg";
 
 export const Features = () => {
   return (
-    <div className="flex flex-col gap-10 mb-20">
-      <div className="orange-gradient p-7 text-white rounded-xl font-extrabold text-2xl leading-8 mb-1">
+    <div className="flex flex-col gap-10 sm:gap-y-14 mb-20 sm:grid sm:grid-cols-2">
+      <div className="orange-gradient p-7 text-white rounded-xl font-extrabold text-2xl leading-8 mb-1 sm:pt-14">
         Check out our most popular courses!
       </div>
       <FeatureCard icon={animationIcon} title="Animation">
