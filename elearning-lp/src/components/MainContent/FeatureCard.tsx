@@ -11,17 +11,23 @@ export const FeatureCard = ({
   children,
 }: PropsWithChildren<Props>) => {
   return (
-    <div className="relative rounded-xl bg-white px-7 pt-14">
+    <div className="relative rounded-xl bg-white p-7 pt-14">
       <img src={icon} alt="feature-icon" className="absolute -top-7" />
-      <h2 className="mb-4 text-xl font-extrabold text-darkblue">{title}</h2>
-      <div className="mb-6 leading-7 text-specialgray">{children}</div>
-      <div className="mb-4">
-        <a
-          href="https://www.google.de"
-          className="text-lg font-bold text-strawberry transition-colors hover:text-piggypink"
-        >
-          Get started
-        </a>
+      <div className="flex h-full flex-col gap-4">
+        <h2 className="text-xl font-extrabold text-darkblue lg:text-2xl">
+          {title}
+        </h2>
+        <div className="flex-1 leading-7 text-specialgray lg:text-lg">
+          {children}
+        </div>
+        <div>
+          <a
+            href="https://www.google.de"
+            className="py-2 text-lg font-bold text-strawberry transition-colors hover:text-piggypink lg:text-lg"
+          >
+            Get started
+          </a>
+        </div>
       </div>
     </div>
   );

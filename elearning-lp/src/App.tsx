@@ -4,9 +4,11 @@ import { MainContent } from "./components/MainContent/MainContent";
 
 function App() {
   return (
-    <div className="bg-gradient-to-b from-white to-gradient-background-blue">
-      <Navbar />
-      <MainContent />
+    <div className="-z-10 bg-gradient-to-b from-white to-gradient-background-blue sm:relative">
+      <div className="mx-auto max-w-screen-2xl overflow-hidden">
+        <Navbar />
+        <MainContent />
+      </div>
       <Footer />
     </div>
   );
