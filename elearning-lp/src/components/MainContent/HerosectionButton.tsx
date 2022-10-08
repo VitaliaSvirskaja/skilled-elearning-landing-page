@@ -1,6 +1,6 @@
 export const HerosectionButton = () => {
   return (
-    <button className="orange-gradient text-white rounded-full py-4 px-10 hover:opacity-60 transition-colors font-bold">
+    <button className="orange-gradient rounded-full py-4 px-10 font-bold text-white transition-colors hover:opacity-60">
       Get startet
     </button>
   );

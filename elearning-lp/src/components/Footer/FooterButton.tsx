@@ -1,7 +1,7 @@
 export const FooterButton = () => {
   return (
-    <div className="bg-white rounded-full">
-      <button className="violet-gradient text-white rounded-full py-2 px-6 hover:opacity-80 transition-colors font-bold">
+    <div className="rounded-full bg-white">
+      <button className="violet-gradient rounded-full py-2 px-6 font-bold text-white transition-colors hover:opacity-80">
         Get startet
       </button>
     </div>

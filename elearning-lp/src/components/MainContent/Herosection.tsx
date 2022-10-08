@@ -5,7 +5,7 @@ import heroImageDesktop from "../../assets/image-hero-desktop@2x.webp";
 
 export const Herosection = () => {
   return (
-    <div className="flex flex-col sm:flex-row sm:relative sm:h-96 sm:items-center">
+    <div className="flex flex-col sm:relative sm:h-96 sm:flex-row sm:items-center">
       <div className="flex flex-col items-start gap-7 pt-5 sm:w-[25rem]">
         <h1 className="headingL space-y-1">Maximize skill, minimize budget</h1>
         <p className="bodyM">

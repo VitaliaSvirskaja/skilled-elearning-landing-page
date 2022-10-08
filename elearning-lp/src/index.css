@@ -12,22 +12,22 @@
   }
 
   .headingXL {
-    @apply font-extrabold text-5xl leading-10 text-darkblue;
+    @apply text-5xl font-extrabold leading-10 text-darkblue;
   }
   .headingL {
-    @apply font-extrabold text-4xl leading-10 text-darkblue;
+    @apply text-4xl font-extrabold leading-10 text-darkblue;
   }
   .headingM {
-    @apply font-extrabold text-3xl leading-5 text-darkblue;
+    @apply text-3xl font-extrabold leading-5 text-darkblue;
   }
   .headingS {
-    @apply font-extrabold text-2xl leading-3 text-darkblue;
+    @apply text-2xl font-extrabold leading-3 text-darkblue;
   }
   .bodyM {
-    @apply font-medium text-base leading-8 text-specialgray;
+    @apply text-base font-medium leading-8 text-specialgray;
   }
   .bodyS {
-    @apply font-bold text-sm leading-7 text-specialgray;
+    @apply text-sm font-bold leading-7 text-specialgray;
   }
 }
 

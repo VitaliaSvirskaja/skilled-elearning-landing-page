@@ -1,7 +1,7 @@
 export const NavbarButton = () => {
   return (
     <div>
-      <button className="bg-darkblue text-white font-bold rounded-full py-2 px-6 hover:bg-grayblue transition-colors">
+      <button className="rounded-full bg-darkblue py-2 px-6 font-bold text-white transition-colors hover:bg-grayblue">
         Get startet
       </button>
     </div>
