@@ -14,7 +14,7 @@ export const Herosection = () => {
         </p>
         <HerosectionButton />
       </div>
-      <picture className="sm:absolute sm:-top-36 sm:-right-72 sm:w-[40rem]">
+      <picture className="sm:absolute sm:-top-36 sm:-right-72 sm:w-[40rem] md:w-[45rem]">
         <source srcSet={heroImageDesktop} media="(min-width: 1390px)" />
         <source srcSet={heroImageTablet} media="(min-width: 640px)" />
         <img src={heroImageMobile} alt="hero-image" className="mt-4" />{" "}
